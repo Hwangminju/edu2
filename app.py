@@ -5,7 +5,7 @@ import werkzeug
 werkzeug.cached_property = werkzeug.utils.cached_property
 
 from flask import Flask
-from flask_restplus import Resource, Api, reqparse
+from flask_restx import Resource, Api, reqparse
 
 
 # -----------------------------------------------------
